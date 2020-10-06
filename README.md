@@ -2,7 +2,7 @@
 
 Thank you for taking the time to review this project.
 
-The main goal of this library is to be able to describe a CSV format and to load the data from a file 
+The main goal of this library is to be able to describe a CSV format using a Schema DSL and to load the data from a file 
 while maintaining the types defined in the schema, such as String, Int or BigDecimal.
 
 ## Quick start
@@ -42,7 +42,7 @@ The current DSL functions available can be found in [src/main/scala/definitions/
     }
 ```
 
-When defining a new schema, always start with the cNil value at the end. by itself, cNil is
+When defining a new schema, always start with the cNil value at the end. By itself, cNil is
 just an empty definition.  We will be prepending definitions to cNil, similar to how one
 would prepend an element to a Linked List.
 
